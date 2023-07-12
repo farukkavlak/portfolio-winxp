@@ -38,8 +38,9 @@ export enum App {
 
 export enum WorkType {
   PERSONAL = "Personal Projects",
-  SCHOOL = "School Projects",
-  HACKATHON = "Hackathons",
+  SENIOR = "Senior Project",
+  BOOTCAMP = "Bootcamp Projects",
+  WORK = "Work",
 }
 
 export type WorkFile = {
@@ -58,4 +59,6 @@ export type WorkContent = {
   gallery: StaticImageData[];
   techstack: string[];
   overview: string;
+  liveURL: string;
+  docURL: string;
 };

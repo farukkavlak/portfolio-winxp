@@ -10,7 +10,9 @@
 .imageContainer {
   position: relative;
   width: auto;
-  height: 200px; /* Set the height of the carousel images */
+  height: auto; /* Set the height of the carousel images */
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .imageContainer img {
@@ -21,9 +23,9 @@
 
 .controls {
   position: absolute;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
-  width: 100%;
+  width: 107%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,9 +33,9 @@
 }
 
 .controlButton {
-  font-size: 2rem;
+  font-size: 1.2rem;
   padding: 10px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   background-color: rgba(0, 0, 0, 0.5);
   border: none;
   border-radius: 10px;

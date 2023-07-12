@@ -4,107 +4,76 @@ import info from "../../assets/dialog/info.png";
 import warning from "../../assets/dialog/warning.png";
 import help from "../../assets/dialog/help.png";
 import cmd from "../../assets/cmd.png";
-import mycomputer from "../../assets/mycomputer.png";
-import folder_plain from "../../assets/folder_plain.png";
-import outlook from "../../assets/outlook.png";
-import dsta from "../../assets/workaccordion/dsta.png";
-import gdsc from "../../assets/workaccordion/gdsc.png";
 import file from "../../assets/workaccordion/file.png";
 import emptyfile from "../../assets/workaccordion/emptyfile.png";
-import ee2026_1 from "../../assets/work/EE2026/ee2026_1.jpg";
-import ee2026_2 from "../../assets/work/EE2026/ee2026_2.jpg";
-import ee2026_3 from "../../assets/work/EE2026/ee2026_3.jpg";
-import ee2026_4 from "../../assets/work/EE2026/ee2026_4.jpg";
-import ee2026_5 from "../../assets/work/EE2026/ee2026_5.jpg";
-import ee2026_6 from "../../assets/work/EE2026/ee2026_6.jpg";
-import ee2026_7 from "../../assets/work/EE2026/ee2026_7.jpg";
-import dsta_1 from "../../assets/work/dsta/1.png";
-import dsta_2 from "../../assets/work/dsta/2.png";
-import dsta_3 from "../../assets/work/dsta/3.png";
-import dsta_4 from "../../assets/work/dsta/4.png";
-import dsta_5 from "../../assets/work/dsta/5.png";
-import dsta_6 from "../../assets/work/dsta/6.png";
-import dsta_7 from "../../assets/work/dsta/7.png";
-import dsta_8 from "../../assets/work/dsta/8.png";
-import hfg_1 from "../../assets/work/hfg/1.png";
-import hfg_2 from "../../assets/work/hfg/2.png";
-import hfg_3 from "../../assets/work/hfg/3.png";
-import hfg_5 from "../../assets/work/hfg/5.png";
-import hfg_6 from "../../assets/work/hfg/6.png";
-import hfg_7 from "../../assets/work/hfg/7.png";
-import eg_1 from "../../assets/work/eg1311/1.jpg";
-import eg_2 from "../../assets/work/eg1311/2.jpg";
-import eg_3 from "../../assets/work/eg1311/3.jpg";
-import eg_4 from "../../assets/work/eg1311/4.jpg";
-import eg_5 from "../../assets/work/eg1311/5.jpg";
-import eg_6 from "../../assets/work/eg1311/6.jpg";
-import cg1 from "../../assets/work/cg1111/1.jpg";
-import cg2 from "../../assets/work/cg1111/2.jpg";
-import cg3 from "../../assets/work/cg1111/3.jpg";
-import cg4 from "../../assets/work/cg1111/4.jpg";
-import cg5 from "../../assets/work/cg1111/5.jpg";
-import cg6 from "../../assets/work/cg1111/6.jpg";
-import cg1_2 from "../../assets/work/cg2111/1.jpg";
-import cg2_2 from "../../assets/work/cg2111/2.jpg";
-import cg3_2 from "../../assets/work/cg2111/3.jpg";
-import cg4_2 from "../../assets/work/cg2111/4.jpg";
-import cg5_2 from "../../assets/work/cg2111/5.jpg";
-import cg6_2 from "../../assets/work/cg2111/6.jpg";
+import akbank_hw1_1 from "../../assets/work/akbank_hw1/hw1_1.png";
+import akbank_hw2_1 from "../../assets/work/akbank_hw2/hw2_1.png";
+import akbank_hw2_2 from "../../assets/work/akbank_hw2/hw2_2.png";
+import akbank_hw3_1 from "../../assets/work/akbank_hw3/hw3_1.png";
+import akbank_final_1 from "../../assets/work/akbank_final/Final_1.png";
+import akbank_final_2 from "../../assets/work/akbank_final/Final_2.png";
+import akbank_final_3 from "../../assets/work/akbank_final/Final_3.png";
+import mobile1_1 from "../../assets/work/mobileaction_hw1/mobile1_1.png";
+import mobile1_2 from "../../assets/work/mobileaction_hw1/mobile1_2.png";
+import mobile2_1 from "../../assets/work/mobileaction_hw2/mobile2_1.png";
+import mobile2_2 from "../../assets/work/mobileaction_hw2/mobile2_2.png";
+import mobile3_1 from "../../assets/work/mobileaction_hw3/mobile3_1.png";
+import mobile3_2 from "../../assets/work/mobileaction_hw3/mobile3_2.png";
+import mobilefinal_1 from "../../assets/work/mobileaction_final/mobilefinal_1.png";
+import mobilefinal_2 from "../../assets/work/mobileaction_final/mobilefinal_2.png";
+import mobilefinal_3 from "../../assets/work/mobileaction_final/mobilefinal_3.png";
+import mobilefinal_4 from "../../assets/work/mobileaction_final/mobilefinal_4.png";
+import mobilefinal_5 from "../../assets/work/mobileaction_final/mobilefinal_5.png";
+import frewell_1 from "../../assets/work/frewell/frewell_1.png";
+import trinder_0 from "../../assets/work/trinder/trinder_0.png";
+import trinder_1 from "../../assets/work/trinder/trinder_1.png";
+import trinder_2 from "../../assets/work/trinder/trinder_2.png";
+import trinder_3 from "../../assets/work/trinder/trinder_3.png";
+import trinder_4 from "../../assets/work/trinder/trinder_4.png";
+import trinder_5 from "../../assets/work/trinder/trinder_5.png";
+import vocab_1 from "../../assets/work/vocab/logo.png";
+import vocab_2 from "../../assets/work/vocab/usage-1.png";
+import vocab_3 from "../../assets/work/vocab/usage-2.png";
 import lul from "../../assets/work/lul.jpg";
-import butterfly from "../../assets/butterfly.png";
-import mr1 from "../../assets/mr1.jpg";
-import mr2 from "../../assets/mr2.jpg";
-import mrIcon from "../../assets/mr_icon.png";
 import MS from "../../assets/work/MS.png";
 import MS2 from "../../assets/work/MS2.png";
 export const TechIcon = {
+  JAVA: 
+    "https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white",
+  SPRING:
+    "https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white",
+  POSTGRESQL:
+    "https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white",
+  MONGODB:
+    "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white",
   REACT:
     "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
   NEXTJS:
     "https://img.shields.io/badge/next.js-%23000000.svg?style=for-the-badge&logo=next.js&logoColor=white",
   FIREBASE:
     "https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase",
-  TYPESCRIPT:
-    "https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white",
-  FIGMA:
-    "https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white",
   NODEJS:
     "https://img.shields.io/badge/node.js-%2343853D.svg?style=for-the-badge&logo=node.js&logoColor=white",
   GOOGLECLOUDFUNCTIONS:
     "https://img.shields.io/badge/gCloud_Functions-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white",
-  JAVA: "https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white",
-  FLUTTER:
-    "https://img.shields.io/badge/flutter-%2302569B.svg?style=for-the-badge&logo=flutter&logoColor=white",
-  VERILOG:
-    "https://img.shields.io/badge/Verilog-%23F7DF1E.svg?style=for-the-badge&logo=verilog&logoColor=rgb(142%2C0%2C39)",
-  PYTHON:
-    "https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white",
-  C: "https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white",
-  CPP: "https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&ogoColor=white",
-  ROS: "https://img.shields.io/badge/ROS-%23000000.svg?style=for-the-badge&logo=ros&logoColor=white",
-  ARDUINO:
-    "https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white",
-  HTML: "https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",
-  CSS: "https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white",
+  HTML: 
+    "https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",
+  CSS: 
+    "https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white",
   JAVASCRIPT:
     "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
-  RASPBERRYPI:
-    "https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi",
-  REDUX:
-    "https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white",
-  MATERIALUI:
-    "https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white",
-  AUTOCAD:
-    "https://img.shields.io/badge/AutoCAD-0696D7?style=for-the-badge&logo=autodesk&logoColor=white",
-  MBOT: "https://img.shields.io/badge/Makeblock-FF7F00?style=for-the-badge&logo=makeblock&logoColor=white",
   GOOGLECLOUD:
     "https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white",
-  MONGODB:
-    "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white",
-  TELEGRAM:
-    "https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white",
-  VUEJS:
-    "https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D",
+  AZURE:
+    "https://img.shields.io/badge/microsoft%20azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white",
+  GITHUB:
+    "https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white",
+  PYTHON:
+    "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=whit",
+  ALGOLIA:
+    "https://upload.wikimedia.org/wikipedia/commons/6/69/Algolia-logo.svg",
+  STRIPE:
+    "https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white"
 };
 
 export const AppDirectory: Map<number, Tab> = new Map([
@@ -112,7 +81,7 @@ export const AppDirectory: Map<number, Tab> = new Map([
     0,
     {
       id: 0,
-      title: "Welcome To My Website - Quick Start Guide",
+      title: "Welcome - Quick Start Guide",
       message: "",
       Icon: help,
       isMinimized: false,
@@ -123,57 +92,15 @@ export const AppDirectory: Map<number, Tab> = new Map([
     },
   ],
   [
-    1,
-    {
-      id: 0,
-      title: "Outlook Express",
-      message: "",
-      Icon: outlook,
-      isMinimized: false,
-      zIndex: 0,
-      program: App.OUTLOOK,
-      prompt: false,
-      backBtnActive: false,
-    },
-  ],
-  [
     2,
     {
       id: 0,
-      title: "My Work",
+      title: "Projects",
       message: "",
       Icon: cmd,
       isMinimized: false,
       zIndex: 0,
       program: App.MYWORK,
-      prompt: false,
-      backBtnActive: false,
-    },
-  ],
-  [
-    3,
-    {
-      id: 0,
-      title: "My Blog",
-      message: "",
-      Icon: mycomputer,
-      isMinimized: false,
-      zIndex: 0,
-      program: App.MYBLOG,
-      prompt: false,
-      backBtnActive: false,
-    },
-  ],
-  [
-    4,
-    {
-      id: 0,
-      title: "My Documents",
-      message: "",
-      Icon: folder_plain,
-      isMinimized: false,
-      zIndex: 0,
-      program: App.MYDOCUMENT,
       prompt: false,
       backBtnActive: false,
     },
@@ -237,50 +164,51 @@ export const AppDirectory: Map<number, Tab> = new Map([
 ]);
 
 export const WorkAccordionTitles = [
-  WorkType.HACKATHON,
+  WorkType.BOOTCAMP,
   WorkType.PERSONAL,
-  WorkType.SCHOOL,
+  WorkType.SENIOR,
+  WorkType.WORK,
 ];
 
 export const WorkData = [
   {
     id: 1,
-    title: "Windows XP Personalized Website",
+    title: "Vocab Learning Chrome Extension",
     date: "Jan 2023 - Feb 2023",
-    gitURL: "https://github.com/firwer/winxpsite",
+    gitURL: "https://github.com/farukkavlak/Vocab-Learning-Chrome-Extension",
     techstack: [
-      TechIcon.TYPESCRIPT,
-      TechIcon.NEXTJS,
-      TechIcon.REDUX,
-      TechIcon.CSS,
-      TechIcon.HTML,
       TechIcon.JAVASCRIPT,
+      TechIcon.GOOGLECLOUD
     ],
-    gallery: [lul],
-    overview: `This project began as my software journey first began on Windows XP. Back then, I was
-    trying out many different things on my old XP computer such as creating my little CLI application
-    on batch files and also developing my very first GUI apps on Visual Studio 2010 (i.e Text encrypters,
-    My own Web browser, phishing program that can steal my friend's passwords :P, and I forgot what else...)
-    .Unfortunately, I lost all of those files so it was somewhat nostalgic to recreate the environment
-    that I used to have back then. Other than those, I also have fond memories of the MSN Messenger with 
-    that irritating nudge function. Anyway, I figured out why not present all my works and my digital 
-    identity somewhere familiar to me, so here we are, hope you'll enjoy this little project of mine!`,
+    gallery: [vocab_1,vocab_2,vocab_3],
+    overview: `Vocabulary learning extension powered by AI.It is designed to be used to learn when there is a word that you do not understand in the subtitle while watching a movie. 
+    It is a chrome extension that allows you to ask artificial intelligence for an explanation and example sentence with the help of a shortcut in real time when you encounter an English word that you do not know while watching a movie,series etc.
+    
+    To use the extension, just press the extension's shortcut while watching a movie, series or any video with subtitles. This shortcut is ctrl+h for windows and cmd+h for macos. 
+    The video on the screen is paused so you don't miss the movie. Then, thanks to the Google Vision OCR API, the application captures the text in the photo and turns them into clickable buttons.
+    (If you do not want to continue the process, you can press the ESC key, the buttons will disappear from the screen and the video will continue.) 
+    When you click on the word you want to learn the meaning of, it takes the meaning of this word and an example sentence with the help of ChatGPT and shows it as an alert. When you close the alert, the video continues.
+    Screenshots are black because of the Netflix Privacy Issues`,
   },
   {
     id: 2,
-    title: "Telegram Bot - SDA Crowd Level Report Generator",
+    title: "ChatGPT Chrome Extension",
     date: "Oct - Nov 2022",
     gitURL: "",
-    techstack: [TechIcon.TELEGRAM, TechIcon.PYTHON],
+    techstack: [],
     gallery: [],
     overview: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel`,
   },
   {
     id: 3,
-    title: "Telegram Bot - Digital Goods Management System",
+    title: "Find Your Meme Chrome Extension",
     date: "Oct 2022 - Present",
     gitURL: "",
-    techstack: [TechIcon.TELEGRAM, TechIcon.PYTHON, TechIcon.GOOGLECLOUD],
+    techstack: [
+      TechIcon.JAVA,
+      TechIcon.SPRING,
+      TechIcon.POSTGRESQL,
+    ],
     gallery: [MS, MS2],
     overview: `I have developed a cloud inventory management system on gCloud with a Telegram bot 
     interface to help manage my online software distribution business. The system is able to retrieve,
@@ -290,214 +218,275 @@ export const WorkData = [
   },
   {
     id: 4,
-    title: "Audio Visual System BASYS3 FPGA",
+    title: "Senior Project - Trinder - 3D E-Commerce Platform",
     date: "Oct - Nov 2022",
-    gitURL: "https://github.com/firwer/EE2026-FPGA-Project",
-    techstack: [TechIcon.VERILOG, TechIcon.PYTHON],
-    gallery: [
-      ee2026_5,
-      ee2026_1,
-      ee2026_2,
-      ee2026_3,
-      ee2026_4,
-      ee2026_6,
-      ee2026_7,
+    liveURL: "https://trinder-4pp.web.app/",
+    gitURL: "",
+    docURL: "https://trinder-6b720.web.app/",
+    techstack: [
+      TechIcon.REACT,
+      TechIcon.FIREBASE,
+      TechIcon.JAVASCRIPT,
+      TechIcon.GOOGLECLOUD,
+      TechIcon.GOOGLECLOUDFUNCTIONS,
+      TechIcon.STRIPE,
+      TechIcon.ALGOLIA,
     ],
-    overview: `For my EE2026 Digital Design Class, our pair built a Audio Visual System inclusive of both 
-      individual and teamwork components.\nOur team component consist of an interactive mouse-based 
-      drawing tool that includes a canvas, colour palette changer, rectangle drawing tool and brush 
-      size selection. For my individual portion, I came up with a P-Mod OLED digital stopwatch timer 
-      that have lapping and a whistle start/stop feature powered by Pmod MIC3`,
+    gallery: [
+      trinder_0,
+      trinder_1,
+      trinder_2,
+      trinder_3,
+      trinder_4,
+      trinder_5
+    ],
+    overview: `This application will act as a meeting platform for 3D printer owners and people who want to get a 3D print and does not own a printer themselves. 
+    Both printer owners and customers will be able to put up adverts for offering printing services or looking for printing services. 
+    Both parties will be able to communicate with a chatting system integrated in the application. Our application will be a meeting platform only. 
+    Which means, payment and shipping will be agreed upon between the printer owner and the customer. 
+    Application will also have a forum for general discussions, 3D printer discussions, sharing 3D model files etc.\n
+    You can view the live version and the documentation/design of the project for better understanding.`,
   },
   {
     id: 5,
-    title: "SAGE - Java-Based CLI Task Manager",
+    title: "Akbank-Patika Bootcamp HW1 - House Management",
     date: "Feb 2023",
-    gitURL: "https://github.com/firwer/ip",
+    gitURL: "https://github.com/farukkavlak/Akbank-Patika-JavaSpring-Bootcamp-Homeworks/tree/main/Akbank-JavaSpring-Bootcamp-Homework1",
     techstack: [TechIcon.JAVA],
-    gallery: [],
-    overview: `For my individual portion, I created SAGE, A Java-Based CLI developed based on the OOP concepts 
-      and SWE code quality principles. SAGE is a CLI that helps users to manage their tasks and deadlines. 
-      For our team component, (Not done yet, taking the module now)`,
+    gallery: [akbank_hw1_1],
+    overview: `Introductory assignment to use basic rules like Clean Code, OOP. The project aims to create a system for the management of different residential properties, including houses, villas and summerhouses. 
+    The system provides functions to generate instances of these attribute types and calculate various statistics based on their attributes.`,
   },
   {
     id: 6,
-    title: "CG2111A - Alex Search & Rescue Lidar Robot Project",
+    title: "Akbank-Patika Bootcamp HW2 - Country/President API",
     date: "Feb 2023",
-    gitURL: "https://github.com/firwer/CG2111A-Alex-Lidar-Project",
+    gitURL: "https://github.com/farukkavlak/Akbank-Patika-JavaSpring-Bootcamp-Homeworks/tree/main/Akbank-JavaSpring-Bootcamp-Homework1.1",
     techstack: [
-      TechIcon.CPP,
-      TechIcon.ROS,
-      TechIcon.ARDUINO,
-      TechIcon.RASPBERRYPI,
+      TechIcon.JAVA,
+      TechIcon.SPRING
     ],
-    gallery: [cg1_2, cg2_2, cg3_2, cg4_2, cg5_2, cg6_2],
-    overview: `We created a robot, named Alex, that is intended to be a “search and rescue” robot that
-      can be piloted around remotely in an unknown environment. Its role is to serve as an 
-      “eye” of the user and provide real-time information on the environment to the user to
-      allow him/her to navigate the whole terrain and draw a detailed map of the environment.\n
-      The robot is equipped with a LIDAR device to map the said unknown environment. The user would 
-      then be able to send movement commands to Alex and receive environment information (the angle 
-      and distance to the nearest obstacle in any particular direction) back to the user.\n
-      Through this project, I have learnt how to integrate Lidar, Arduino, Raspberry Pi and ROS into
-      a single operational vehicle and most importantly, how to write baremetal code and deal with USART 
-      communication between our Compuer, Arduino and Raspberry Pi.`,
+    gallery: [akbank_hw2_1, akbank_hw2_2],
+    overview: `Country Management API with Java and Spring: This project provides a RESTful API for managing country data, built using Java and the Spring framework. 
+    The API allows users to create, retrieve, and update information about countries, including their name and president's name.`,
   },
   {
     id: 7,
-    title: "CG1111A - mBot Vehicle Maze Navigator",
+    title: "Akbank-Patika Bootcamp HW3 - Customer/Order Management",
     date: "Aug - Nov 2021",
-    gitURL: "",
-    techstack: [TechIcon.CPP, TechIcon.MBOT],
-    gallery: [cg6, cg1, cg2, cg3, cg4, cg5],
-    overview: `Our team and I built an mBot vehicle that is able to navigate through a maze and perform specific 
-      action based on the colour of the ground it is on. The mBot is able to detect the colour of the 
-      ground using a colour sensor and move in different directions with the help of 2 IR sensor and 1 
-      Ultrasonic sensor.`,
+    gitURL: "https://github.com/farukkavlak/Akbank-Patika-JavaSpring-Bootcamp-Homeworks/tree/main/Akbank-JavaSpring-Bootcamp-Homework2",
+    techstack: [TechIcon.JAVA],
+    gallery: [akbank_hw3_1],
+    overview: `Introductory assignment to use basic rules like Clean Code, OOP with Java and Maven. The project aims to create a system for the customer can create orders and view their invoices.`,
   },
   {
     id: 8,
-    title: "EG1311",
+    title: "Akbank-Patika Bootcamp Final Case - Weather Forecast",
     date: "Aug - Nov 2021",
-    gitURL: "",
-    techstack: [TechIcon.CPP, TechIcon.ARDUINO, TechIcon.AUTOCAD],
-    gallery: [eg_1, eg_2, eg_3, eg_4, eg_5, eg_6],
-    overview: `My team and I built a robot vehicle powered using Arduino and 4 DC motors. Our vehicle is able to 
-      move through a series of incline ramps, stop at a designated point using proximity sensor and fire 
-      a ping-pong ball through a quick-release catapult that was built with a servo-motor.`,
+    gitURL: "https://github.com/farukkavlak/Akbank-JavaSpring-Bootcamp-FinalCase",
+    techstack: [
+      TechIcon.JAVA,
+      TechIcon.SPRING,
+      TechIcon.REACT,
+      TechIcon.POSTGRESQL,
+    ],
+    gallery: [akbank_final_1, akbank_final_2, akbank_final_3],
+    overview: `Weather Forecast and City Geocoding Project with ReactJS and Java Spring Boot: The main purpose of the application is to get the 5 day Weather Forecast according to the City Name by using https://openweathermap.org, save it in the database and display it to the user.
+    Users can create accounts to save cities and view weather forecasts for their saved locations. The application stores city data and predictions in a PostgreSQL database. It has error handling and logging mechanisms to improve stability. 
+    Feign (Open Feign) is used for efficient client communication. The frontend is built with ReactJS, making it easy for users to interact with the application.
+    `,
   },
-
   {
     id: 9,
-    title: "GDSC Hack4Good 2023 - InclusionLab Web Platform",
+    title: "MobileAction-Patika Bootcamp HW1 - User/Comment API",
     date: "Feb 2023",
-    gitURL: "https://github.com/firwer/h4g-hackathon",
+    gitURL: "https://github.com/farukkavlak/JavaSpring-Patika.dev-Bootcamp-Homeworks/tree/main/HW1-UserCommentProject/first-homework-farukkavlak-main",
     techstack: [
-      TechIcon.NODEJS,
-      TechIcon.NEXTJS,
-      TechIcon.GOOGLECLOUDFUNCTIONS,
-      TechIcon.FIREBASE,
-      TechIcon.TYPESCRIPT,
-      TechIcon.FIGMA,
-      TechIcon.CSS,
-      TechIcon.JAVASCRIPT,
-      TechIcon.HTML,
+      TechIcon.JAVA,
+      TechIcon.SPRING,
     ],
-    gallery: [hfg_7, hfg_1, hfg_2, hfg_3, hfg_5, hfg_6],
-    overview: `InclusionLab aims to help companies to improve the accessibility of their websites for persons 
-      with disabilities. We provide a platform where PWDs can conduct easy & clear accessibility testing 
-      and also an automated accessibility testing tool powered by Axe-Core to maximise testing outcome`,
+    gallery: [mobile1_1, mobile1_2],
+    overview: `User and User Comment Management API with Java Spring Boot: This project provides a API for managing user data and user comments, built using Java Spring Boot. 
+    The API includes functionality to register new users, retrieve user information, update user details, and deactivate users. Additionally, users can post comments, retrieve all comments, delete specific comments, and update the text of their own comments while preserving other attributes such as the comment date and associated product ID. 
+    Swagger is integrated to provide API documentation and testing capabilities. `,
   },
   {
     id: 10,
-    title: "DSTA CodeEXP Hackathon 2022 - My Army Pal",
+    title: "MobileAction-Patika Bootcamp HW2 - Address Registration API",
     date: "Jun 2022",
-    gitURL: "https://github.com/firwer/dstahackathon",
-    techstack: [TechIcon.FLUTTER, TechIcon.FIREBASE],
-    gallery: [dsta_7, dsta_1, dsta_2, dsta_3, dsta_4, dsta_5, dsta_6, dsta_8],
-    overview: `MyArmyPal serves to be an all in one service for our service men. It seeks to provide convenience 
-      and useful features just one tap away. Its main features include an IPPT Calculator, reservist 
-      checklist, customized IPPT training plan according to the user's current fitness level and a canteen 
-      order pick up service in all army camps.`,
+    gitURL: "https://github.com/farukkavlak/JavaSpring-Patika.dev-Bootcamp-Homeworks/tree/main/HW2-AddressRegistrationProject/odev-2-farukkavlak-main",
+    techstack: [
+      TechIcon.JAVA,
+      TechIcon.SPRING,
+      TechIcon.POSTGRESQL
+    ],
+    gallery: [mobile2_1, mobile2_2],
+    overview: `Address Registration System API with Java Spring Boot: This project provides a API for managing addresses, including countries, cities, districts, neighborhoods, streets, and individual addresses. 
+    With this system, users can save, retrieve, update, and delete address-related data based on specific requirements. The API allows users to save country information and retrieve it using the country ID. 
+    Similarly, users can save city data and retrieve it using the city's plate number. Districts can be saved and retrieved, and users can also retrieve districts belonging to a specific city. 
+    The system supports saving and updating neighborhood names, and users can retrieve neighborhoods belonging to a particular district. 
+    Additionally, street names can be saved and updated, and users can retrieve streets belonging to a specific neighborhood. The system also enables users to save addresses and delete them based on the address ID. `,
   },
   {
     id: 11,
-    title: "GDSC Mercy Relief CMS Portal (WIP)",
+    title: "MobileAction-Patika Bootcamp HW3 - Car Registration API",
+    date: "Sept 2022 - Present",
+    gitURL: "https://github.com/farukkavlak/JavaSpring-Patika.dev-Bootcamp-Homeworks/tree/main/HW3-CarRegistrationProject/odev-3-farukkavlak-main",
+    techstack: [
+      TechIcon.JAVA,
+      TechIcon.SPRING,
+      TechIcon.POSTGRESQL
+    ],
+    gallery: [mobile3_1, mobile3_2],
+    overview: `Car Registration System API with Java Spring Boot: This project provide a API for managing car registrations and user accounts. 
+    Users can register by providing their name, surname, username, email, and password. 
+    The system enforces password validation rules, requiring at least one uppercase letter, one lowercase letter, one number, and one symbol. 
+    Duplicate registrations with the same username or email are not allowed. User password changes are only permitted for logged-in users and require the entry of the old password along with the new password and its confirmation. 
+    The system securely stores passwords in an encoded format in the database. When a user is deleted, all cars associated with that user are also removed from the system. 
+    Users have the ability to query and view all the cars they own. Additionally, authenticated users can add their own cars, ensuring that the same car (identified by license plate) cannot be added by multiple users. 
+    License plates are validated to exclude spaces, lowercase letters, and Turkish characters. Cars can be updated or deleted, providing flexibility for users. 
+    The system also includes a service that allows vehicles to be retrieved based on their brand and model.`,
+  },
+  {
+    id: 12,
+    title: "MobileAction-Patika Bootcamp Final Case - Weather Air Pollution",
+    date: "Sept 2022 - Present",
+    gitURL: "https://github.com/farukkavlak/MobileActionFinalBackend",
+    techstack: [
+      TechIcon.JAVA,
+      TechIcon.SPRING,
+      TechIcon.REACT,
+      TechIcon.POSTGRESQL
+    ],
+    gallery: [mobilefinal_1, mobilefinal_2, mobilefinal_3, mobilefinal_4, mobilefinal_5],
+    overview: `Air Pollution Monitoring System with ReactJS and Java Spring Boot: This project aims to provide users with access to air pollution information based on city name and date range. 
+    Leveraging the OpenWeatherMap API, the application retrieves historical air pollution data, specifically focusing on Carbon monoxide (CO), Ozone (O3), and Sulfur dioxide (SO2) values. 
+    The retrieved pollutant concentration information is classified into categories such as 'Good,' 'Satisfactory,' 'Moderate,' 'Poor,' 'Severe,' and 'Hazardous.' 
+    The application allows users to query air pollution information by providing the city name and optional date range, with a default range of the past week. 
+    The application intelligently looks up the database for existing data and only queries the API for missing dates. Results fetched from the API are logged, indicating whether they were obtained from the database or the API. 
+    The application handles missing data cases gracefully, considering the occurrence of errors for certain days. 
+    Extensive testing has been conducted, including controller, service, and utility tests, to ensure method and line coverage.`,
+  },
+  {
+    id: 13,
+    title: "Frewell Project",
     date: "Sept 2022 - Present",
     gitURL: "",
+    liveURL: "https://frewell.com/",
     techstack: [
-      TechIcon.NEXTJS,
-      TechIcon.TYPESCRIPT,
-      TechIcon.MONGODB,
-      TechIcon.MATERIALUI,
+      TechIcon.REACT,
+      TechIcon.FIREBASE,
+      TechIcon.GOOGLECLOUD,
+      TechIcon.GOOGLECLOUDFUNCTIONS,
+      TechIcon.HTML,
       TechIcon.CSS,
+      TechIcon.PYTHON,
     ],
-    gallery: [mr1, mr2],
-    overview: `Currently, I am working as a frontend software developer for Google's Developer Student Club. We
-    are building a new CMS portal for Mercy Relief, a non-profit organization that supports disaster relief efforts
-    worldwide. The newly revamped CMS portal aims to provide a more user-friendly interface for the Mercy Relief 
-    team to manage their global campaigns, press release articles, and donation drives. Some areas I have contributed
-    but not limited to are the frontend development of the campaign creation page that consist of TinyMCE WYSIWYG 
-    editor, DragnDrop image upload, and API Integration with our backend.`,
+    gallery: [frewell_1],
+    overview: `I worked on this project while working at the Bilişim Academy company. I made the backend part of the project, and I helped some components in the frontend part.
+    Voice Uploading/Playing Web Application with Firebase,Python, ReactJS, and NodeJS: 
+    Of course, there is a business logic behind the site, but the important thing here is the technical part.
+    Frewell.com is a web application that allows users to upload their voice recordings and efficiently distribute them across multiple servers. 
+    The application optimizes the distribution process to ensure smooth playback of the voices in a sequential manner with specific intervals. 
+    It provides secure user authentication and authorization, an admin panel for managing users and content, integration with Stripe for payment processing, and services for sending emails and text messages. 
+    The backend, built with Python, handles communication between servers, distribution of voices, periodic playback, and deletion of recordings. 
+    Firebase is used for data storage and management. 
+    Python was used to distribute and play sounds smoothly and optimally to servers in the background. Here, the communication of computers on the same network, socket programming, etc. used.
+    The frontend, developed using ReactJS, offers a user-friendly interface for easy interaction with the application. 
+    Explore the features of https://frewell.com, where users can share their voices and access a set of functionalities.`,
   },
-] as WorkContent[];
+] as unknown as WorkContent[];
 
 export const WorkAccordionContent = [
   {
     id: 1,
     type: WorkType.PERSONAL,
-    icon: butterfly,
-    title: "Windows XP Personalized Website",
+    icon: emptyfile,
+    title: "Vocab Learning Chrome Extension",
     content: WorkData[WorkData.findIndex((x) => x.id === 1)],
   },
   {
     id: 2,
     type: WorkType.PERSONAL,
     icon: emptyfile,
-    title: "SDA Report Generator",
+    title: "ChatGPT Chrome Extension",
     content: WorkData[WorkData.findIndex((x) => x.id === 2)],
   },
   {
     id: 3,
     type: WorkType.PERSONAL,
     icon: emptyfile,
-    title: "Digital Goods Management System",
+    title: "Find Your Meme Chrome Extension",
     content: WorkData[WorkData.findIndex((x) => x.id === 3)],
   },
   {
     id: 4,
-    type: WorkType.SCHOOL,
+    type: WorkType.SENIOR,
     icon: file,
-    title: "EE2026 Digital Systems Design",
+    title: "Trinder - 3D E-Commerce Platform",
     content: WorkData[WorkData.findIndex((x) => x.id === 4)],
   },
   {
     id: 5,
-    type: WorkType.SCHOOL,
+    type: WorkType.BOOTCAMP,
     icon: file,
-    title: "CS2113 - Software Engineering & OOP",
+    title: "Akbank-Patika Bootcamp HW1",
     content: WorkData[WorkData.findIndex((x) => x.id === 5)],
   },
   {
     id: 6,
-    type: WorkType.SCHOOL,
+    type: WorkType.BOOTCAMP,
     icon: file,
-    title: "CG2111A Engineering Principles II",
+    title: "Akbank-Patika Bootcamp HW2",
     content: WorkData[WorkData.findIndex((x) => x.id === 6)],
   },
   {
     id: 7,
-    type: WorkType.SCHOOL,
+    type: WorkType.BOOTCAMP,
     icon: file,
-    title: "CG1111A Engineering Principles I",
+    title: "Akbank-Patika Bootcamp HW3",
     content: WorkData[WorkData.findIndex((x) => x.id === 7)],
   },
   {
     id: 8,
-    type: WorkType.SCHOOL,
+    type: WorkType.BOOTCAMP,
     icon: file,
-    title: "EG1311 Design and Make",
+    title: "Akbank-Patika Bootcamp Final Case",
     content: WorkData[WorkData.findIndex((x) => x.id === 8)],
   },
   {
     id: 9,
-    type: WorkType.HACKATHON,
-    icon: gdsc,
-    title: "GDSC Hack4Good 2023",
+    type: WorkType.BOOTCAMP,
+    icon: emptyfile,
+    title: "MobileAction-Patika Bootcamp HW1",
     content: WorkData[WorkData.findIndex((x) => x.id === 9)],
   },
   {
     id: 10,
-    type: WorkType.HACKATHON,
-    icon: dsta,
-    title: "DSTA CodeEXP 2022",
+    type: WorkType.BOOTCAMP,
+    icon: emptyfile,
+    title: "MobileAction-Patika Bootcamp HW2",
     content: WorkData[WorkData.findIndex((x) => x.id === 10)],
   },
   {
     id: 11,
-    type: WorkType.SCHOOL,
-    icon: mrIcon,
-    title: "GDSC Mercy Relief CMS Portal",
+    type: WorkType.BOOTCAMP,
+    icon: emptyfile,
+    title: "MobileAction-Patika Bootcamp HW3",
     content: WorkData[WorkData.findIndex((x) => x.id === 11)],
+  },
+  {
+    id: 12,
+    type: WorkType.BOOTCAMP,
+    icon: emptyfile,
+    title: "MobileAction-Patika Bootcamp Final Case",
+    content: WorkData[WorkData.findIndex((x) => x.id === 12)],
+  },
+  {
+    id: 13,
+    type: WorkType.WORK,
+    icon: emptyfile,
+    title: "Frewell",
+    content: WorkData[WorkData.findIndex((x) => x.id === 13)],
   },
 ] as WorkFile[];

@@ -28,6 +28,8 @@ const MyWork = ({ id }: Props) => {
     gallery: [],
     techstack: [],
     overview: "",
+    liveURL: "",
+    docURL: "",
   });
   const [gitIcon, setgitIcon] = useState(github_w);
   const backBtnActive = useSelector(
@@ -50,6 +52,8 @@ const MyWork = ({ id }: Props) => {
         gallery: [],
         techstack: [],
         overview: "",
+        liveURL:"",
+        docURL:"",
       });
     }
   }, [backBtnActive]);
@@ -71,7 +75,7 @@ const MyWork = ({ id }: Props) => {
       <div className={styles.rightpanel}>
         {currDisplay.title === "" ? (
           <div className={styles.body}>
-            <h4>Welcome To My Portfolio Section</h4>
+            <h4>Welcome To My Portfolio</h4>
             <h5>
               Begin Navigation by clicking on one of my projects on the left
               panel
@@ -127,6 +131,30 @@ const MyWork = ({ id }: Props) => {
                   />
                 </div>
               )}
+              {
+                currDisplay?.liveURL && currDisplay.liveURL !== "" && (
+                  <div
+                    onClick={() =>
+                      window.open(currDisplay.liveURL, "_blank", "noreferrer")
+                    }
+                    className={styles.github_button}
+                  >
+                    View Live Version
+                  </div>
+                )
+              }
+              {
+                currDisplay?.docURL && (
+                  <div
+                    onClick={() =>
+                      window.open(currDisplay.docURL, "_blank", "noreferrer")
+                    }
+                    className={styles.github_button}
+                  >
+                    View Documents of Project
+                  </div>
+                )
+              }
             </div>
             <div className={styles.body}>
               <h4>Techstack Used</h4>

@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { Inter } from "@next/font/google";
 import StartBar from "components/StartBar/StartBar";
 import "xp.css/dist/XP.css";
 import styles from "../styles/Home.module.css";
@@ -9,17 +8,14 @@ import bin from "../../assets/recycling_bin.png";
 import pdf from "../../assets/pdf.png";
 import github from "../../assets/github.png";
 import cmd from "../../assets/cmd.png";
-import solitare from "../../assets/solitaire.png";
 import linkedin from "../../assets/linkedin.png";
 import WinForm from "components/WinForm/WinForm";
-import { useEffect, useState } from "react";
 import store from "@/redux/store";
 import { AppDirectory } from "@/appData";
 import { App, RootState, Tab } from "@/types";
 import { addTab } from "@/redux/tabSlice";
 import { useSelector } from "react-redux";
 import { v4 as uuidv4 } from "uuid";
-import Outlook from "@/programs/Outlook";
 import MyWork from "@/programs/MyWork";
 import MsgBox from "components/MsgBox/MsgBox";
 import Welcome from "@/programs/Welcome";
@@ -33,15 +29,14 @@ export default function Home() {
   };
 
   const iconClicked = () => {
-    console.log("Icon Clicked!");
   };
   const handleOpenGitHub = () => {
-    window.open("https://github.com/firwer", "_blank", "noreferrer");
+    window.open("https://github.com/farukkavlak", "_blank", "noreferrer");
   };
 
   const handleOpenLinkedin = () => {
     window.open(
-      "https://www.linkedin.com/in/poh-wei-pin-7b9061183/",
+      "https://www.linkedin.com/in/ömerfarukkavlak/",
       "_blank",
       "noreferrer"
     );
@@ -54,7 +49,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Wei Pin&apos;s Personal Website - Home Page</title>
+        <title>Ömer Faruk Kavlak</title>
         <meta name="description" content="My Personal Space" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/favicon.ico" />
@@ -69,7 +64,7 @@ export default function Home() {
         >
           <DesktopIcon
             appID={1}
-            doubleClick={iconClicked}
+            doubleClick={() => handleRunApp(0)} 
             title="My Computer"
             img={mycomputer}
           />
@@ -82,33 +77,26 @@ export default function Home() {
           <DesktopIcon
             appID={3}
             doubleClick={handleOpenResume}
-            title="My Resume"
+            title="Resume"
             img={pdf}
           />
           <DesktopIcon
             appID={4}
             doubleClick={handleOpenLinkedin}
-            title="My LinkedIn"
+            title="LinkedIn"
             img={linkedin}
           />
           <DesktopIcon
             appID={5}
             doubleClick={handleOpenGitHub}
-            title="My Github"
+            title="Github"
             img={github}
           />
           <DesktopIcon
             appID={6}
             doubleClick={() => handleRunApp(2)}
-            title="My Work"
+            title="Projects"
             img={cmd}
-          />
-
-          <DesktopIcon
-            appID={7}
-            doubleClick={iconClicked}
-            title="My Hobbies"
-            img={solitare}
           />
           {Tabs.map((tab, index) => {
             return tab.isMinimized ? (
@@ -126,8 +114,6 @@ export default function Home() {
               >
                 {tab.program === App.MYWORK ? (
                   <MyWork id={tab.id} />
-                ) : tab.program === App.OUTLOOK ? (
-                  <Outlook />
                 ) : tab.program === App.WELCOME ? (
                   <Welcome id={tab.id} />
                 ) : tab.program === App.ERROR ? (
