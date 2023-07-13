@@ -34,7 +34,9 @@ import trinder_5 from "../../assets/work/trinder/trinder_5.png";
 import vocab_1 from "../../assets/work/vocab/logo.png";
 import vocab_2 from "../../assets/work/vocab/usage-1.png";
 import vocab_3 from "../../assets/work/vocab/usage-2.png";
-import lul from "../../assets/work/lul.jpg";
+import chatgpt_1 from "../../assets/work/chatgpt-ext/usage-1.png";
+import chatgpt_2 from "../../assets/work/chatgpt-ext/usage-2.png";
+import chatgpt_3 from "../../assets/work/chatgpt-ext/usage-3.png";
 import MS from "../../assets/work/MS.png";
 import MS2 from "../../assets/work/MS2.png";
 export const TechIcon = {
@@ -73,7 +75,11 @@ export const TechIcon = {
   ALGOLIA:
     "https://upload.wikimedia.org/wikipedia/commons/6/69/Algolia-logo.svg",
   STRIPE:
-    "https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white"
+    "https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white",
+  CHATGPT:
+    "https://freelogopng.com/images/all_img/1681038628chatgpt-icon-logo.png",
+  CLOUDVISION:
+    "https://miro.medium.com/v2/resize:fit:1400/1*tkAiRWvYmAi_RuRhRYgeiQ.jpeg"
 };
 
 export const AppDirectory: Map<number, Tab> = new Map([
@@ -178,7 +184,9 @@ export const WorkData = [
     gitURL: "https://github.com/farukkavlak/Vocab-Learning-Chrome-Extension",
     techstack: [
       TechIcon.JAVASCRIPT,
-      TechIcon.GOOGLECLOUD
+      TechIcon.GOOGLECLOUD,
+      TechIcon.CLOUDVISION,
+      TechIcon.CHATGPT,
     ],
     gallery: [vocab_1,vocab_2,vocab_3],
     overview: `Vocabulary learning extension powered by AI.It is designed to be used to learn when there is a word that you do not understand in the subtitle while watching a movie. 
@@ -194,10 +202,24 @@ export const WorkData = [
     id: 2,
     title: "ChatGPT Chrome Extension",
     date: "Oct - Nov 2022",
-    gitURL: "",
-    techstack: [],
-    gallery: [],
-    overview: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel`,
+    gitURL: "https://github.com/farukkavlak/ChatGPT-Chrome-Extension",
+    techstack: [
+      TechIcon.JAVASCRIPT,
+      TechIcon.NEXTJS,
+      TechIcon.CHATGPT,
+    ],
+    gallery: [
+      chatgpt_1,
+      chatgpt_2,
+      chatgpt_3,
+    ],
+    overview: `It is designed to enable effective and efficient communication with ChatGPT. The project provides multiple example prompts that can be customized according to your preferences. Example Prompts:
+    1: Translate / Improve: Turkish -> English
+    2: English Correct
+    3: Summarize
+    4: Paraphrase
+    5: Extract Keywords
+    6: Ask me Anything`,
   },
   {
     id: 3,
