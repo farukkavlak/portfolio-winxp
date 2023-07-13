@@ -37,8 +37,7 @@ import vocab_3 from "../../assets/work/vocab/usage-2.png";
 import chatgpt_1 from "../../assets/work/chatgpt-ext/usage-1.png";
 import chatgpt_2 from "../../assets/work/chatgpt-ext/usage-2.png";
 import chatgpt_3 from "../../assets/work/chatgpt-ext/usage-3.png";
-import MS from "../../assets/work/MS.png";
-import MS2 from "../../assets/work/MS2.png";
+
 export const TechIcon = {
   JAVA: 
     "https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white",
@@ -231,7 +230,7 @@ export const WorkData = [
       TechIcon.SPRING,
       TechIcon.POSTGRESQL,
     ],
-    gallery: [MS, MS2],
+    gallery: [],
     overview: `I have developed a cloud inventory management system on gCloud with a Telegram bot 
     interface to help manage my online software distribution business. The system is able to retrieve,
     restock, validate and deliver digital goods to my customers. This system has helped me to automate
