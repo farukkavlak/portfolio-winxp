@@ -413,7 +413,6 @@ export const WorkData = [
     The backend, built with Python, handles communication between servers, distribution of voices, periodic playback, and deletion of recordings. 
     Firebase is used for data storage and management. 
     Python was used to distribute and play sounds smoothly and optimally to servers in the background. Here, the communication of computers on the same network, socket programming, etc. used.
-    The frontend, developed using ReactJS, offers a user-friendly interface for easy interaction with the application. 
     Explore the features of https://frewell.com, where users can share their voices and access a set of functionalities.`,
   },
 ] as unknown as WorkContent[];
