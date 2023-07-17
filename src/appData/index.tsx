@@ -37,6 +37,7 @@ import vocab_3 from "../../assets/work/vocab/usage-2.png";
 import chatgpt_1 from "../../assets/work/chatgpt-ext/usage-1.png";
 import chatgpt_2 from "../../assets/work/chatgpt-ext/usage-2.png";
 import chatgpt_3 from "../../assets/work/chatgpt-ext/usage-3.png";
+import find_1 from "../../assets/work/find/find_1.png";
 
 export const TechIcon = {
   JAVA: 
@@ -224,18 +225,24 @@ export const WorkData = [
     id: 3,
     title: "Find Your Meme Chrome Extension",
     date: "Oct 2022 - Present",
-    gitURL: "",
+    gitURL: "https://github.com/farukkavlak/Find-Your-Meme-Chrome-Extension",
     techstack: [
       TechIcon.JAVA,
       TechIcon.SPRING,
       TechIcon.POSTGRESQL,
+      TechIcon.REACT,
+      TechIcon.NEXTJS,
+      TechIcon.AZURE,
     ],
     gallery: [],
-    overview: `I have developed a cloud inventory management system on gCloud with a Telegram bot 
-    interface to help manage my online software distribution business. The system is able to retrieve,
-    restock, validate and deliver digital goods to my customers. This system has helped me to automate
-    crucial portions of my business processes and save me a lot of time and effort while also reducing
-    the delivery time of my products. To date, this system has helped me to fulfil over 1000+ orders`,
+    overview: `Find Your Meme is a Chrome extension that enables users to discover and explore memes using tags. 
+    With its intuitive interface and integrated admin panel, it offers a seamless browsing experience while providing control over the displayed content. 
+    This project is like a chrome extension of the "Know Your Meme" website.`,
+    features: [
+      "Tag-Based Meme Search: Search for memes based on specific tags of interest. Find Your Meme retrieves relevant memes from a curated database, allowing users to explore content related to various themes, trends, or viral topics.",
+      "Save Memes with Images and Tags: Users can save their favorite memes along with custom tags. This feature allows for easy organization and retrieval of memes based on user-defined categories or keywords.",
+      "Admin Panel: The extension includes an admin panel that empowers administrators to manage image requests and maintain the quality of the displayed memes. Verify image submissions, delete inappropriate content, and ensure an enjoyable experience for all users.",
+    ],
   },
   {
     id: 4,

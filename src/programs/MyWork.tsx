@@ -30,6 +30,7 @@ const MyWork = ({ id }: Props) => {
     overview: "",
     liveURL: "",
     docURL: "",
+    features: [],
   });
   const [gitIcon, setgitIcon] = useState(github_w);
   const backBtnActive = useSelector(
@@ -54,6 +55,7 @@ const MyWork = ({ id }: Props) => {
         overview: "",
         liveURL:"",
         docURL:"",
+        features: [],
       });
     }
   }, [backBtnActive]);
@@ -112,6 +114,18 @@ const MyWork = ({ id }: Props) => {
             <div className={styles.body}>
               <h4>Overview:</h4>
               {currDisplay.overview}
+              {
+                currDisplay?.features && currDisplay.features.length > 0 && (
+                  <div style={{textAlign:"left",margin:"20px"}}>
+                    <h4>Features:</h4>
+                    <ul>
+                      {currDisplay.features.map((feature) => (
+                        <li key={feature}>{feature}</li>
+                      ))}
+                    </ul>
+                  </div>
+                )
+              }
               {currDisplay.gitURL !== "" && (
                 <div
                   onMouseEnter={() => setgitIcon(github)}

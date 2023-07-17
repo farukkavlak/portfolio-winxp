@@ -61,4 +61,5 @@ export type WorkContent = {
   overview: string;
   liveURL: string;
   docURL: string;
+  features: string[],
 };
