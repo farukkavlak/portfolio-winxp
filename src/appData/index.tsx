@@ -195,8 +195,7 @@ export const WorkData = [
     To use the extension, just press the extension's shortcut while watching a movie, series or any video with subtitles. This shortcut is ctrl+h for windows and cmd+h for macos. 
     The video on the screen is paused so you don't miss the movie. Then, thanks to the Google Vision OCR API, the application captures the text in the photo and turns them into clickable buttons.
     (If you do not want to continue the process, you can press the ESC key, the buttons will disappear from the screen and the video will continue.) 
-    When you click on the word you want to learn the meaning of, it takes the meaning of this word and an example sentence with the help of ChatGPT and shows it as an alert. When you close the alert, the video continues.
-    Screenshots are black because of the Netflix Privacy Issues`,
+    When you click on the word you want to learn the meaning of, it takes the meaning of this word and an example sentence with the help of ChatGPT and shows it as an alert.`,
   },
   {
     id: 2,
